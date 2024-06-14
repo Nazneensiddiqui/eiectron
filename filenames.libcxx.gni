@@ -4,9 +4,7 @@ libcxx_headers = [
   "//third_party/libc++/src/include/__algorithm/all_of.h",
   "//third_party/libc++/src/include/__algorithm/any_of.h",
   "//third_party/libc++/src/include/__algorithm/binary_search.h",
-  "//third_party/libc++/src/include/__algorithm/clamp.h",
-  "//third_party/libc++/src/include/__algorithm/comp.h",
-  "//third_party/libc++/src/include/__algorithm/comp_ref_type.h",
+  "//third_party/libc++/src/include/__algorithm/clamp.h"
   "//third_party/libc++/src/include/__algorithm/copy.h",
   "//third_party/libc++/src/include/__algorithm/copy_backward.h",
   "//third_party/libc++/src/include/__algorithm/copy_if.h",
