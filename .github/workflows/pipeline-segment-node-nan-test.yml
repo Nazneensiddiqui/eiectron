@@ -51,7 +51,7 @@ jobs:
         e auto-update disable
         e init --root=$(pwd) --out=Default ${{ inputs.gn-build-type }} --import ${{ inputs.gn-build-type }} --target-cpu ${{ inputs.target-arch }}
     - name: Checkout Electron
-      uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29
+      uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
       with:
         path: src/electron
         fetch-depth: 0
@@ -116,7 +116,7 @@ jobs:
         e auto-update disable
         e init --root=$(pwd) --out=Default ${{ inputs.gn-build-type }}
     - name: Checkout Electron
-      uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29
+      uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
       with:
         path: src/electron
         fetch-depth: 0
