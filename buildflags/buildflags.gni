@@ -27,4 +27,17 @@ declare_args() {
   # Packagers and vendor builders can set this in gn args to attach extra info
   # about the build in the binary.
   electron_vendor_version = ""
+  electron_vendor_version = ""
+  electron_vendor_version = ""
+  electron_vendor_version = ""
+  electron_vendor_version = ""
+  electron_vendor_version = ""
+  electron_vendor_version = ""
+  electron_vendor_version = ""
+  electron_vendor_version = ""
+  electron_vendor_version = ""
+  electron_vendor_version = ""
+  electron_vendor_version = ""
+  electron_vendor_version = ""
+  electron_vendor_version = ""
 }
